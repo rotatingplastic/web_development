@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Notebook</title>
+</head>
+
+<body>
+    <h1>Josh's HTML SCRATCHBOOK</h1>
+    <h2>INPUT TYPES</h2>
+    <form action="results.html" method="GET" enctype="multipart/form-data"> <!--enc - this instructs form to send data in discrete parts if or b/c the dataset is too large-->
+        <div>
+            <label for "username">Enter Username:</label>
+            <input type="username" reset>
+        </div>
+        <div>
+            <label>Enter Password:</label>
+            <input type="password" reset>
+        </div>
+        <div>
+        </div>
+        <div> <label for="email">Email</label>
+            <input type="email" name="email" id="email" required reset>
+        </div>
+        <div><label for="age">Age:</label>
+            <input type="number" name="age" id="age" min="1" max="150" reset>
+        </div>
+        <div><label for="date">Date of Birth</label>
+            <input type="date" name="date" id="date" reset>
+        </div>
+        Race (Check all that Apply) <div>
+            <label for="white">white</label>
+            <input type="checkbox" name="white" id="white" reset>
+        </div>
+        <div>
+            <label for="black">Black</label>
+            <input type="checkbox" name="black" id="black" reset>
+        </div>
+        <div>
+            <label for="white">Other</label>
+            <input type="checkbox" name="other" id="other" reset>
+        </div>
+        Gender
+        <!--Radio button - limit to one choice-->
+        <div>
+            <label for="man">Man</label>
+            <input type="radio" name="gender" id="man"reset>
+        </div>
+        <div>
+            <label for="woman">Woman</label>
+            <input type="radio" name="gender" id="woman" reset>
+        </div>
+        <div>
+            <label for="nb">Prefer not to say</label>
+            <input type="radio" name="gender" id="nb" reset>
+        </div>
+        <div>Location:
+            <!--input type select ("multiple" attribute can be used for select type)-->
+            <select name="location" id="location">
+            <option value="USA">United States</option>
+<option value="other">Other</option>
+            </select>
+        </div>
+        <div>
+            <!--PHONE# = tel-->
+            <label for="phone">Enter Phone Number:</label>
+            <input type="tel" name="phone" id="phone" reset>
+        </div>
+        URL input
+        <div>
+            <label for="url">Enter URL:</label>
+        <input type="url" name="" id="">
+        </div>
+        <!--Text area element-->
+Say a little about yourself:
+        <div>
+            <label for="bio">Bio:</label>
+            <textarea name="bio" id="bio" cols="20" rows="10" reset></textarea>
+        </div>
+        <!--HIDDEN INPUT TYPE ATT -- users cannot interact:-->
+        <div>
+            <input type="hidden" name="shh!" reset>
+        </div>
+        <div><label for="submit"> Click Here to Submit! </label>
+            <input type="submit">
+        </div>
+    </form>
+
+
+</body>
+
+
+
+</html>
+
+
+<h1>
+    HTML Challenge
+</h1>
+<hr>
+<a href="https://developer.mozilla.org/en-US/">Link to MDN Documentation</a>
+<table>
+    <tr>
+        <td>One</td>
+        <td>Two</td>
+    </tr>
+    <tr>
+        <td>Three</td>
+        <td>Four</td>
+    </tr>
+</table>
